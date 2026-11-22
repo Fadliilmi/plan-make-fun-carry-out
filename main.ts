@@ -2,7 +2,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 
 // The plan make.fun will carry out in public:
 // one AI-executable plan to turn $100 into the most money in 30 days.
-// 280 Unicode code points, verified before writing.
+// 280 Unicode code points, verified before writing; the file is written
+// with no trailing newline so the byte count stays exactly 280.
 const plan =
   "Day 1: list a Fiverr gig, '5 SEO blog posts in 24 hours', $25. " +
   "Days 2-3: answer 10 requests daily with a sample. " +
